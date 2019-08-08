@@ -85,7 +85,7 @@
   transform: translate(-50%, -50%);
 }
 
-.slide {
+.fb-slide {
   height: 0;
   bottom: 100%;
   transition: .5s ease;
@@ -93,7 +93,7 @@
   font-size: 3%;
 }
 
-.border:hover .slide  {
+.border:hover .fb-slide  {
   bottom: 0;
   height: auto;
 }

@@ -105,8 +105,8 @@ class Images extends Component {
     }
 
     return [
-      <div key={`cover-${id}`} className="cover slide" style={{backgroundColor: overlayBackgroundColor}}></div>,
-      <div key={`cover-text-${id}`} className="cover-text slide animate-text"  style={{fontSize: '100%'}}>
+      <div key={`cover-${id}`} className="cover fb-slide" style={{backgroundColor: overlayBackgroundColor}}></div>,
+      <div key={`cover-text-${id}`} className="cover-text fb-slide animate-text"  style={{fontSize: '100%'}}>
         {renderOverlay()}
       </div>
     ]
